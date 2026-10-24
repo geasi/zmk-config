@@ -49,7 +49,7 @@
             >;
 
             sensor-bindings =
-                <&bt BT_PRV BT_NXT>,
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
                 <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 

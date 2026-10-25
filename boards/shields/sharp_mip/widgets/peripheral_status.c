@@ -123,6 +123,7 @@ int zmk_widget_status_init(struct zmk_widget_status *widget, lv_obj_t *parent) {
 
     lv_obj_t *art = lv_img_create(widget->obj);
     lv_img_set_src(art, &formula_car);
+    lv_obj_set_size(art, 68, 160);
     lv_obj_align(art, LV_ALIGN_TOP_LEFT, art_pos, 0);
 
     sys_slist_append(&widgets, &widget->node);
